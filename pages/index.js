@@ -1,9 +1,8 @@
-import Head from "../node_modules/next/head";
+import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import Link from "../node_modules/next/link";
-import { Grid } from "antd";
+import Link from "next/link";
 import {
   LinkedinOutlined,
   InstagramOutlined,
@@ -13,11 +12,11 @@ import {
   PhoneOutlined,
   LinkOutlined,
 } from "@ant-design/icons";
-import { Button } from "../node_modules/antd/lib/index";
-import { useRouter } from "../node_modules/next/router";
+import { Button } from "antd";
+import { useRouter } from "next/router";
 export default function Home() {
   const router = useRouter();
-  const particlesInit = async (main: any) => {
+  const particlesInit = async (main) => {
     console.log(main);
 
     await loadFull(main);

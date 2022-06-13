@@ -1,0 +1,14 @@
+
+  .exp{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .exp_main{
+    width:70%;
+    padding-top: 8rem;
+  }

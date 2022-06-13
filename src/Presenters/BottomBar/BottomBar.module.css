@@ -1,0 +1,41 @@
+.bottom{
+    position: absolute;
+    z-index: 2;
+    /* color: white; */
+    bottom: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    font-family: roboto;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.08em;
+    z-index: 6;
+  }
+  
+  .mail{
+    color: white !important;
+    cursor: pointer !important;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .smalldot{
+    width: 4px;
+    height: 4px;
+    background: white;
+    margin: 12px;
+    border-radius: 50%;
+  }
+
+  .mail:hover{
+    color: var(--theme-a) !important;
+  }
+  .bottom_icon{
+    color: var(--theme-a) !important;
+    font-size: 1.4rem;
+    margin-right: 8px;
+  }

@@ -19,3 +19,20 @@ a {
   box-sizing: border-box;
 }
 
+.carousel-root  {
+  height: 100% !important;
+  width: 72% !important;
+}
+
+.ant-carousel{
+  width: 70%  !important;
+}
+
+.ant-tag{
+  padding: 2px 10px !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400 !important;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}

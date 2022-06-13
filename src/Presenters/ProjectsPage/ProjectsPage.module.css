@@ -1,0 +1,65 @@
+.project{
+    width:100%;
+    position: absolute;
+    height: 100%;
+    z-index: 4;
+    padding-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+}
+
+.img{
+    width: 100%;
+}
+
+.name{
+    font-size: 1.6rem;
+    color: white!important;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+}
+
+.left_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.btn{
+    margin-left: 12px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 6px;
+}
+
+.btn:hover{
+    border-bottom: 2px solid var(--theme-a);
+}
+
+.tech{
+    margin-bottom: 3rem;
+    padding: 8px;
+    line-height: 2.5rem;
+}
+
+.desc{
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0.04em;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.desc li{
+    margin-bottom: 4px;
+}
+.desc ul{
+    padding: 0;
+}

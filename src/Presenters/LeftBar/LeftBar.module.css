@@ -1,0 +1,78 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+    z-index: 6;
+  }
+  
+  .line{
+    width: 0.5px;
+    height: 8rem;
+    background: white;
+    opacity: 0.4;
+    margin: 16px 0;
+  }
+  
+  .icon{
+    font-size: 1.5rem;
+    color: white !important;
+    padding:8px;
+    transition: color .3s ease-in-out,background-color .3s ease-in-out;
+  }
+  .icon:hover{  
+    font-size: 1.4rem;
+    background: var(--theme-a);
+    color: white !important;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  .left{
+    position: absolute;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 100%;
+    justify-content: space-between;
+      padding-bottom: 2.5rem;
+  }
+  
+  .logo_active{
+    color: var(--theme-a);
+    font-family: roboto;
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-bottom: 3px solid;
+    z-index: 6;
+    cursor: pointer;
+  }
+
+  .logo{
+    color: white;
+    font-family: roboto;
+    font-size: 2.2rem;
+    font-weight: 700;
+    z-index: 6;
+    cursor: pointer;
+  }
+
+  .logo:hover{
+    color: var(--theme-a);
+    border-bottom: 3px solid;
+  }
+  
+  .img{
+    width:2rem;
+    border-radius: 50%;
+    z-index:6;
+    cursor: pointer;
+  }
+  .img:hover{  
+    background: var(--theme-a);
+    width: 2rem !important;
+    color: white !important;
+    padding: 8px;
+    border-radius: 50%;
+  }

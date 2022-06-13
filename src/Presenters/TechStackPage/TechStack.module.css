@@ -1,0 +1,65 @@
+
+  .ts{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+  }
+
+  .section{
+    width: 100%;
+    height: max-content;
+    z-index: 5;
+    border: 2.3px solid white;
+    border-radius: 5px;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    
+  }
+
+  .section_head{
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 4px 18px;
+    z-index: 18;
+    margin-bottom: 8px;
+    width: 100%;
+    background: #ffffff24;
+    letter-spacing: 0.05em;
+  }
+
+
+
+  .tech_name{
+    color: white;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 6px;
+  }
+
+  .tech_img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
